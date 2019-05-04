@@ -1,6 +1,6 @@
 class Dog 
   
-  @@all = []
+  @@all = [] #available to whole class instances /methods
   
   attr_accessor :name
   
