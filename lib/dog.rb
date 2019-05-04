@@ -2,7 +2,7 @@ class Dog
   
   @@all = [] #available to whole class instances /methods
   
-  attr_accessor :name
+  attr_accessor :name #available to instance methods/var
   
   def initialize(name)
     @name = name
